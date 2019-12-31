@@ -1305,13 +1305,7 @@ Adam and Eve.  <set name="she">Eve</set> tempts him and <set name="he">Adam</set
 <template><srai>LOCATION</srai></template>
 </category>
 <category><pattern>HI</pattern>
-<template><random>
-<li>Hi nice to see you!</li>
-<li>Hi it's great to see you!</li>
-<li>Hi how are you?</li>
-<li>Hi!  I can really feel your smile today.</li>
-<li>Hi! It's delightful to see you.</li>
-</random></template>
+<template>Hi</template>
 </category>
 <category><pattern>YAY</pattern>
 <template><random><li>Woohoo!</li><li>Yipee!</li><li>Yaaaay!</li></random></template>
@@ -3616,7 +3610,7 @@ By "we" do you mean you and me?</li>
 <template>Yeah.</template>
 </category>
 <category><pattern>I AM FINE</pattern>
-<template>Glad to hear it. What's new?</template>
+<template>Glad to hear it. What I can help you today?</template>
 </category>
 <category><pattern>WHEN DID I *</pattern>
 <template>Sometime earlier.</template>
