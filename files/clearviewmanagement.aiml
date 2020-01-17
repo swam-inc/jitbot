@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>_ add *</pattern>
+	    <template><srai>enroll student</srai></template>
+    </category>
+    <category>
+        <pattern>_ enroll *</pattern>
+        <template><srai>enroll student</srai></template>
+    </category>
+    <category>
+        <pattern>_ register *</pattern>
+        <template><srai>enroll student</srai></template>
+    </category>
+    <category>
+        <pattern>enroll student</pattern>
+        <template><think><set name="topic">enroll</set></think>What is your email address?</template>
+    </category>
+    
+
+    
+<category>
+    <pattern>Create a new email account</pattern>
+    <template>Sure. Â What is the email account user name?</template>
+</category>
+<category>
+    <pattern>Steven Lu</pattern>
+    <template>What is the email address?</template>
+</category>
+<category>
+    <pattern>Steven lu@clearviewschool ca</pattern>
+    <template>Great. Â The email stevenLu@clearviewschool.cahasbeencreated.</template>
+</category>
+</aiml>
